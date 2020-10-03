@@ -151,12 +151,12 @@ console.log(res(12,2))
 
 // Funciones - constructor
 var myFoo = new Function("a", "b", "return a * b");
-var x = myFoo(4, 3);
-console.log(x);
+var x1 = myFoo(4, 3);
+console.log(x1);
 
 // Funciones - lambda
-var foo = (x:number)=>10 + x
-console.log(foo(100))
+var foo1 = (x:number)=>10 + x
+console.log(foo1(100))
 
 // Arreglos
 var alphas:string[];
@@ -222,6 +222,6 @@ class Car {
 }
 
 // Objetos
-var obj = new Car("Engine 1")
-console.log("Attribute value Engine: "+obj.engine)
-obj.disp()
+var obj1 = new Car("Engine 1")
+console.log("Attribute value Engine: "+obj1.engine)
+obj1.disp()
